@@ -4,7 +4,7 @@ letter = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def display_board(letter)
   puts " #{letter[0]} | #{letter[1]} | #{letter[2]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{letter[0]} | #{letter[1]} | #{letter[2]} "
   puts "-----------"
   puts "   |   |   "
 end
